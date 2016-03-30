@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  background: #EEE;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background: teal;
+  color: #EEE;
+  top: 0;
+  position: absolute;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+}
+
+header h1 {
+  margin-top: 0px;
+}
+.fruitContainer {
+  background: #FFF;
+  width: 250px;
+  display: inline-block;
+  margin: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.50);
+}
+
+.fruitContainer img {
+  height: 200px;
+  border-bottom: 2px solid teal;
+}
+
+.fruitContainer p {
+  margin-left: 10px;
+}
+
+.marketContainer {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 200px;
+  background: #337Ab7;
+  color: blanchedalmond;
+  border: none;
+  height: 30px;
+  border-radius: 3px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background: #333;
+  color: #eee;
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  bottom: 0;
+  position: fixed;
+}
+
+footer ul {
+  display: inline;
+}
+footer ul li {
+  float: left;
+  display: inline;
+  padding-left: 10px;
+  padding-top: 30px;
+}
+
+.moneyRemaining {
+  float: right;
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 20px;
+  display: inline;
+  background: forestgreen;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+#apples {
+  background: darkred;
+  padding: 3px;
+  border-radius: 3px;
+  color: #FFF;
+  margin-top: 25px;
+}
+
+#bananas {
+  background: gold;
+  color: #000;
+  border-radius: 3px;
+  padding: 3px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+#grapes {
+  background: indigo;
+  color: #FFF;
+  border-radius: 3px;
+  padding: 3px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+#oranges {
+  background: orange;
+  color: #FFF;
+  border-radius: 3px;
+  padding: 3px;
+  margin-left: 10px;
+  margin-top: 25px;
+}

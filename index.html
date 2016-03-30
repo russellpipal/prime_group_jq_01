@@ -2,18 +2,70 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>Fruit Stand</title>
+<!--Libraries  -->
+		<script src="jquery.min.js"></script>
 
+<!-- Our Code -->
 		<meta name="description" content="Webpage">
 		<link href="stylesheet.css" rel="stylesheet">
-
-		<script src="jquery.min.js"></script>
 		<script src="script.js"></script>
 	</head>
-	
+
 	<body>
-		
-		
-		
+		<header>
+			<h1>Fruit Stand</h1>
+		</header>
+
+		<!-- All fruit buying and selling  -->
+		<section class="marketContainer">
+			<!-- Apple Container -->
+			<section id="appleContainer" class="fruitContainer">
+				<img src="apple.jpg" width="250px" alt="Tasty looking apple" />
+				<p>Price: <span id="applePrice">0</span></p>
+				<p>Average purchase price: <span id="avgApple">0</span></p>
+				<button id="buyAppleButton" class="buyButton">Buy Apple</button>
+				<button id="sellAppleButton" class="sellButton">Sell Apple</button>
+			</section>
+
+			<!-- Banana Container -->
+			<section id="bananaContainer" class="fruitContainer">
+				<img src="banana.jpg" width="250px" alt="Tasty looking banana" />
+				<p>Price: <span id="bananaPrice">0</span></p>
+				<p>Average purchase price: <span id="avgBanana">0</span></p>
+				<button id="buyBananaButton" class="buyButton">Buy Banana</button>
+				<button id="sellBananaButton" class="sellButton">Sell Banana</button>
+			</section>
+
+			<!-- Grape Container -->
+			<section id="grapeContainer" class="fruitContainer">
+				<img src="grape.jpg" width="250px" alt="Too many grapes" />
+				<p>Price: <span id="grapePrice">0</span></p>
+				<p>Average purchase price: <span id="avgGrape">0</span></p>
+				<button id="buyGrapesButton" class="buyButton">Buy Grapes</button>
+				<button id="sellGrapeButton" class="sellButton">Sell Grapes</button>
+			</section>
+
+			<!-- Orange Container -->
+			<section id="orangeContainer" class="fruitContainer">
+				<img src="orange.jpg" width="250px" alt="Orange thing" />
+				<p>Price: <span id="orangePrice">0</span></p>
+				<p>Average purchase price: <span id="avgOrange">0</span></p>
+				<button id="buyOrangeButton" class="buyButton">Buy Orange</button>
+				<button id="sellOrangeButton" class="sellButton">Sell Orange</button>
+			</section>
+		</section>
+
+		<!-- Inventory -->
+		<footer class="inventory">
+			<ul>
+				<li id="apples">Apples: <span id="numApples">0</span></li>
+				<li id="bananas">Bananas: <span id="numBananas">0</span></li>
+				<li id="grapes">Grapes: <span id="numGrapes">0</span></li>
+				<li id="oranges">Oranges: <span id="numOranges">0</span></li>
+			</ul>
+
+			<p class="moneyRemaining">Wallet: <span id="myMoney">0</span></p>
+		</footer>
 	</body>
 </html>
